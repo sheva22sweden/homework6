@@ -21,7 +21,7 @@
 					<i class="sprites sprites-image1"></i>
 					<form>
 						<input type="text" name="login" placeholder="логин">
-						<input type="password" id="password" placeholder="пароль">
+						<input type="password" name="password" placeholder="пароль">
 					</form>
 					<ul class="enter">
 						<li><a href="#">вход</a></li>
@@ -42,7 +42,7 @@
 			</div>
 			<div class="header-menu">
 				<ul class="nav">
-					<li class="active"><a href="#">о компании</a></li>
+					<li><a href="#">о компании</a></li>
 					<li><a href="#">оплата</a></li>
 					<li><a href="#">доставка</a></li>
 					<li><a href="#">статьи</a></li>
@@ -55,6 +55,177 @@
 				</ul>
 			</div>
 		</header>
+		<div class="content">
+			<div class="select">
+				<section class="search-auto">
+					<div class="title">
+						<h3>Диски:</h3>
+						<h1>Поиск по автомобилю:</h1>
+						<h3>Шины:</h3>
+					</div>
+					<div>
+						<form class="form-auto">
+							<div class="form-disk">
+								<div class="form-item">
+									<label for="auto-change">Марка авто:</label>
+									<select id="auto-change"></select>
+								</div>
+								<div class="form-item">
+									<label for="auto-change">Модель автомобиля:</label>
+									<select id="auto-change"></select>
+								</div>
+								<div class="form-item">
+									<label for="auto-change">Год выпуска автомобиля:</label>
+									<select id="auto-change-year"></select>
+								</div>
+								<div class="form-item">
+									<label for="auto-change">Комплектация:</label>
+									<select id="auto-change"></select>
+								</div>
+							</div>	
+
+							<div class="form-tires-auto">
+								<div class="form-item">
+									<label for="auto-change">Марка авто:</label>
+									<select id="auto-change"></select>
+								</div>
+								<div class="form-item">
+									<label for="auto-change">Модель автомобиля:</label>
+									<select id="auto-change"></select>
+								</div>
+								<div class="form-item">
+									<label for="auto-change">Год выпуска автомобиля:</label>
+									<select id="auto-change-year"></select>
+								</div>
+								<div class="form-item">
+									<label for="auto-change">Комплектация:</label>
+									<select id="auto-change"></select>
+								</div>
+							</div>	
+						</form>
+						<button class="btn-search-auto">поиск...</button>
+					</div>
+				</section>
+				<section class="search-tires">
+					<div class="title">
+						<h1>поиск шин</h1>
+					</div>
+					<form class="form-tires">
+						<div class="tires-change">
+							<label for="tires-change">Размер:</label>
+							<select id="tires-change">
+								<option value="all">все</option>
+							</select>
+							<span style="margin:3px 0 0 0;">&nbsp;/&nbsp;</span>
+							<select id="tires-change">
+								<option value="all">все</option>
+							</select>
+						</div>
+						<div class="size">
+							<label for="size">R</label>
+							<select id="size">
+								<option value="145">145</option>
+							</select>
+						</div>
+						<div class="season">
+							<div class="season-summer">
+								<label for="season">Сезон:</label>
+								<input type="radio" id="season" value="1" checked>
+								<span>лето</span>
+							</div>
+							<div class="season-winter">
+								<input type="radio" id="season" value="2">
+								<span>зима</span>
+							</div>	
+							<div class="season-all">
+								<input type="radio" ide="season" value="3">
+								<span>всесез</span>
+							</div>
+						</div>
+					</form>
+					<button class="btn-search-tires">поиск...</button>
+				</section>
+				<section class="search-disc">
+					<div class="title-last">
+						<h1>поиск дисков</h1>
+					</div>
+					<form class="form-auto-disk">
+						<div class="search-disk">
+							<div class="form-item-disk">
+								<label for="auto-search">Диаметр диска:</label>
+								<select id="auto-search">
+									<option value="14">14</option>
+								</select>
+							</div>
+							<div class="form-item-disk">
+								<label for="auto-search">Количество крепежных отверствий:</label>
+								<select id="auto-search">
+									<option value="4">4</option>
+								</select>
+							</div>
+							<div class="form-item-disk">
+								<label for="auto-search">Диаметр расположения крепежных отверстий:</label>
+								<select id="auto-search">
+									<option value="12">12</option>
+								</select>
+							</div>
+						</div>	
+
+						<div class="search-disk-auto">
+							<div class="form-item-last">
+								<label for="auto-search-last">ДЦО(диаметр центрального отверстия):</label>
+								<select id="auto-search-last">
+									<option value="12">12</option>
+								</select>
+							</div>
+							<div class="form-item-last">
+								<label for="auto-search-last">ET(вылет диска):</label>
+								<select id="auto-search-last" size="1">
+									<option >12</option>
+									<option >12</option>
+									<option >12</option>
+									<option >12</option>
+									<option >12</option>
+								</select>
+							</div>
+						</div>	
+					</form>
+					<button class="btn-search-tires-last">поиск...</button>
+				</section>
+			</div>
+			<div class="catalog">
+				<section>
+					
+				</section>
+				<section>
+					
+				</section>
+				<section>
+					
+				</section>
+			</div>
+			<div class="brand">
+				<ul>
+					<li><a href="#"><img src=""></a></li>
+					<li><a href="#"><img src=""></a></li>
+					<li><a href="#"><img src=""></a></li>
+					<li><a href="#"><img src=""></a></li>
+					<li><a href="#"><img src=""></a></li>
+					<li><a href="#"><img src=""></a></li>
+					<li><a href="#"><img src=""></a></li>
+					<li><a href="#"><img src=""></a></li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<!-- <p>Создание сайта © Global Vision</p> -->
+		</footer>
     </div>
 </body>
 </html>
